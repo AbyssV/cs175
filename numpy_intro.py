@@ -82,6 +82,7 @@ B = np.tile(b, (3,2))     # "tiles" copies of b (3 copies by 2 copies)
 -------------------------------------------------------------------------------
 A very useful constructor is linspace (and similarly logspace)
 '''
+# both inclusively, you an also set step 
 # length-4 vector interpolating between 1.0 and 7.0
 b = np.linspace(1.0,7.0,4) 
 
